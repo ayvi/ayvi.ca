@@ -1,6 +1,5 @@
 body {
-  padding: 0;
-  font-family: 'Poiret One', cursive;
+  font-family: 'Roboto';
   position: absolute;
   left: 50%;
   top: 50%;
@@ -9,29 +8,31 @@ body {
 
 
 
-   h5 {
-    font-family: 'Poiret One', cursive;
+h5 {
+    font-family: 'roboto';
     font-size: 16;
     text-align: center;
-  }
+ }
+
+
 .thick-white-border{
   border-color: white;
-  padding:100px 0px 0px 0px;
+  padding:50px 20px 20px 20px;
   border-style: solid;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
  .center {
     display: block;
     margin: auto;
-    width: 15%;
     text-align: center;
   }
 
 /* Style all font awesome icons */
 .fa {
-    padding: 10px;
-    font-size: 30px;
-    width: 20px;
+    padding: 5px ;
+    font-size: 15px;
     text-align: center;
     text-decoration: none;
     border-radius: 60%;
@@ -41,12 +42,6 @@ body {
 .fa-facebook {
     background: white ;
     color:  #3B5998;
-}
-
-/* Twitter */
-.fa-twitter {
-    color: #55ACEE;
-    background:white;
 }
 
 /* linked */
@@ -67,10 +62,4 @@ body {
     background: white;
 }
 
-center{
-  margin-top:330px;
-}
-input {
-    position: relative;
-    z-index: 9999;
-}
+
