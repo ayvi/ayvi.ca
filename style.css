@@ -1,10 +1,9 @@
 body {
   font-family: 'Roboto';
-  padding:20px 20px 20px 20px;
+  padding:40px 40px 20px 100px;
   position: absolute;
-  left: 25%;
-  top: 75%;
-  transform: translate(-50%, -50%);
+  left: 0%;
+  top: 25%;
   overflow: hidden;
 }
 
@@ -71,5 +70,3 @@ h5 {
     color: #000000;
     background: white;
 }
-
-
